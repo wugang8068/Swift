@@ -12,15 +12,14 @@
 		5073580F1C1160B4002ABFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5073580E1C1160B4002ABFF8 /* Assets.xcassets */; };
 		507358121C1160B4002ABFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507358101C1160B4002ABFF8 /* LaunchScreen.storyboard */; };
 		5073581A1C1160FD002ABFF8 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507358191C1160FD002ABFF8 /* MainTableViewController.swift */; };
-		5073581E1C1161FF002ABFF8 /* UIScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073581C1C1161FF002ABFF8 /* UIScaleViewController.swift */; };
-		5073581F1C1161FF002ABFF8 /* UIScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5073581D1C1161FF002ABFF8 /* UIScaleViewController.xib */; };
-		507358241C1163B1002ABFF8 /* Swift-addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 507358231C1163B1002ABFF8 /* Swift-addtion.m */; };
 		507358261C116560002ABFF8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507358251C116560002ABFF8 /* Util.swift */; };
-		507358291C1168BB002ABFF8 /* UIScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507358281C1168BB002ABFF8 /* UIScaleView.swift */; };
-		5073582B1C116AB8002ABFF8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073582A1C116AB8002ABFF8 /* BaseViewController.swift */; };
-		5073582F1C116CAD002ABFF8 /* UIBasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073582D1C116CAD002ABFF8 /* UIBasicAnimationViewController.swift */; };
-		507358301C116CAD002ABFF8 /* UIBasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5073582E1C116CAD002ABFF8 /* UIBasicAnimationViewController.xib */; };
-		507358321C116D4B002ABFF8 /* UIBasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507358311C116D4B002ABFF8 /* UIBasicAnimationView.swift */; };
+		507358371C118CFF002ABFF8 /* Swift-addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 507358361C118CFF002ABFF8 /* Swift-addtion.m */; };
+		507358411C118D05002ABFF8 /* UIBasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073583A1C118D05002ABFF8 /* UIBasicAnimationView.swift */; };
+		507358421C118D05002ABFF8 /* UIBasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073583B1C118D05002ABFF8 /* UIBasicAnimationViewController.swift */; };
+		507358431C118D05002ABFF8 /* UIBasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5073583C1C118D05002ABFF8 /* UIBasicAnimationViewController.xib */; };
+		507358441C118D05002ABFF8 /* UIScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073583E1C118D05002ABFF8 /* UIScaleView.swift */; };
+		507358451C118D05002ABFF8 /* UIScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073583F1C118D05002ABFF8 /* UIScaleViewController.swift */; };
+		507358461C118D05002ABFF8 /* UIScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507358401C118D05002ABFF8 /* UIScaleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,17 +30,16 @@
 		507358111C1160B4002ABFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507358131C1160B4002ABFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507358191C1160FD002ABFF8 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		5073581C1C1161FF002ABFF8 /* UIScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScaleViewController.swift; sourceTree = "<group>"; };
-		5073581D1C1161FF002ABFF8 /* UIScaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScaleViewController.xib; sourceTree = "<group>"; };
-		507358211C1163B1002ABFF8 /* animate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "animate-Bridging-Header.h"; sourceTree = "<group>"; };
-		507358221C1163B1002ABFF8 /* Swift-addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-addtion.h"; sourceTree = "<group>"; };
-		507358231C1163B1002ABFF8 /* Swift-addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Swift-addtion.m"; sourceTree = "<group>"; };
 		507358251C116560002ABFF8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		507358281C1168BB002ABFF8 /* UIScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScaleView.swift; sourceTree = "<group>"; };
-		5073582A1C116AB8002ABFF8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		5073582D1C116CAD002ABFF8 /* UIBasicAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBasicAnimationViewController.swift; sourceTree = "<group>"; };
-		5073582E1C116CAD002ABFF8 /* UIBasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIBasicAnimationViewController.xib; sourceTree = "<group>"; };
-		507358311C116D4B002ABFF8 /* UIBasicAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBasicAnimationView.swift; sourceTree = "<group>"; };
+		507358341C118CFF002ABFF8 /* animate-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "animate-Bridging-Header.h"; sourceTree = "<group>"; };
+		507358351C118CFF002ABFF8 /* Swift-addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-addtion.h"; sourceTree = "<group>"; };
+		507358361C118CFF002ABFF8 /* Swift-addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Swift-addtion.m"; sourceTree = "<group>"; };
+		5073583A1C118D05002ABFF8 /* UIBasicAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBasicAnimationView.swift; sourceTree = "<group>"; };
+		5073583B1C118D05002ABFF8 /* UIBasicAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBasicAnimationViewController.swift; sourceTree = "<group>"; };
+		5073583C1C118D05002ABFF8 /* UIBasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIBasicAnimationViewController.xib; sourceTree = "<group>"; };
+		5073583E1C118D05002ABFF8 /* UIScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScaleView.swift; sourceTree = "<group>"; };
+		5073583F1C118D05002ABFF8 /* UIScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScaleViewController.swift; sourceTree = "<group>"; };
+		507358401C118D05002ABFF8 /* UIScaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScaleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +72,8 @@
 		507358061C1160B4002ABFF8 /* animate */ = {
 			isa = PBXGroup;
 			children = (
-				507358201C11637F002ABFF8 /* OC */,
-				5073581B1C1161E4002ABFF8 /* Animation */,
+				507358331C118CFF002ABFF8 /* OC */,
+				507358381C118D05002ABFF8 /* Animation */,
 				507358071C1160B4002ABFF8 /* AppDelegate.swift */,
 				5073580B1C1160B4002ABFF8 /* Main.storyboard */,
 				5073580E1C1160B4002ABFF8 /* Assets.xcassets */,
@@ -87,44 +85,43 @@
 			path = animate;
 			sourceTree = "<group>";
 		};
-		5073581B1C1161E4002ABFF8 /* Animation */ = {
+		507358331C118CFF002ABFF8 /* OC */ = {
 			isa = PBXGroup;
 			children = (
-				5073582C1C116C96002ABFF8 /* BasicAnimation */,
-				507358271C116899002ABFF8 /* Scale */,
-				5073582A1C116AB8002ABFF8 /* BaseViewController.swift */,
+				507358341C118CFF002ABFF8 /* animate-Bridging-Header.h */,
+				507358351C118CFF002ABFF8 /* Swift-addtion.h */,
+				507358361C118CFF002ABFF8 /* Swift-addtion.m */,
 			);
-			name = Animation;
+			path = OC;
 			sourceTree = "<group>";
 		};
-		507358201C11637F002ABFF8 /* OC */ = {
+		507358381C118D05002ABFF8 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				507358221C1163B1002ABFF8 /* Swift-addtion.h */,
-				507358231C1163B1002ABFF8 /* Swift-addtion.m */,
-				507358211C1163B1002ABFF8 /* animate-Bridging-Header.h */,
+				507358391C118D05002ABFF8 /* BasicAnimation */,
+				5073583D1C118D05002ABFF8 /* Scale */,
 			);
-			name = OC;
+			path = Animation;
 			sourceTree = "<group>";
 		};
-		507358271C116899002ABFF8 /* Scale */ = {
+		507358391C118D05002ABFF8 /* BasicAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				5073581C1C1161FF002ABFF8 /* UIScaleViewController.swift */,
-				5073581D1C1161FF002ABFF8 /* UIScaleViewController.xib */,
-				507358281C1168BB002ABFF8 /* UIScaleView.swift */,
+				5073583A1C118D05002ABFF8 /* UIBasicAnimationView.swift */,
+				5073583B1C118D05002ABFF8 /* UIBasicAnimationViewController.swift */,
+				5073583C1C118D05002ABFF8 /* UIBasicAnimationViewController.xib */,
 			);
-			name = Scale;
+			path = BasicAnimation;
 			sourceTree = "<group>";
 		};
-		5073582C1C116C96002ABFF8 /* BasicAnimation */ = {
+		5073583D1C118D05002ABFF8 /* Scale */ = {
 			isa = PBXGroup;
 			children = (
-				5073582D1C116CAD002ABFF8 /* UIBasicAnimationViewController.swift */,
-				5073582E1C116CAD002ABFF8 /* UIBasicAnimationViewController.xib */,
-				507358311C116D4B002ABFF8 /* UIBasicAnimationView.swift */,
+				5073583E1C118D05002ABFF8 /* UIScaleView.swift */,
+				5073583F1C118D05002ABFF8 /* UIScaleViewController.swift */,
+				507358401C118D05002ABFF8 /* UIScaleViewController.xib */,
 			);
-			name = BasicAnimation;
+			path = Scale;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,9 +184,9 @@
 			files = (
 				507358121C1160B4002ABFF8 /* LaunchScreen.storyboard in Resources */,
 				5073580F1C1160B4002ABFF8 /* Assets.xcassets in Resources */,
+				507358431C118D05002ABFF8 /* UIBasicAnimationViewController.xib in Resources */,
 				5073580D1C1160B4002ABFF8 /* Main.storyboard in Resources */,
-				507358301C116CAD002ABFF8 /* UIBasicAnimationViewController.xib in Resources */,
-				5073581F1C1161FF002ABFF8 /* UIScaleViewController.xib in Resources */,
+				507358461C118D05002ABFF8 /* UIScaleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,15 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507358441C118D05002ABFF8 /* UIScaleView.swift in Sources */,
 				5073581A1C1160FD002ABFF8 /* MainTableViewController.swift in Sources */,
-				507358291C1168BB002ABFF8 /* UIScaleView.swift in Sources */,
 				507358081C1160B4002ABFF8 /* AppDelegate.swift in Sources */,
-				507358321C116D4B002ABFF8 /* UIBasicAnimationView.swift in Sources */,
+				507358451C118D05002ABFF8 /* UIScaleViewController.swift in Sources */,
+				507358421C118D05002ABFF8 /* UIBasicAnimationViewController.swift in Sources */,
 				507358261C116560002ABFF8 /* Util.swift in Sources */,
-				5073581E1C1161FF002ABFF8 /* UIScaleViewController.swift in Sources */,
-				5073582B1C116AB8002ABFF8 /* BaseViewController.swift in Sources */,
-				5073582F1C116CAD002ABFF8 /* UIBasicAnimationViewController.swift in Sources */,
-				507358241C1163B1002ABFF8 /* Swift-addtion.m in Sources */,
+				507358411C118D05002ABFF8 /* UIBasicAnimationView.swift in Sources */,
+				507358371C118CFF002ABFF8 /* Swift-addtion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +361,7 @@
 				507358181C1160B4002ABFF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
