@@ -15,6 +15,7 @@ class UIBasicAnimationViewController: BaseViewController {
         super.viewDidLoad()
         NSBundle.mainBundle().loadNibNamed("UIBasicAnimationViewController", owner: self, options: nil);
         self.title = "Basic Animation";
+        
     }
     
 
