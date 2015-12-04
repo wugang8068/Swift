@@ -20,6 +20,7 @@
 		507358441C118D05002ABFF8 /* UIScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073583E1C118D05002ABFF8 /* UIScaleView.swift */; };
 		507358451C118D05002ABFF8 /* UIScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073583F1C118D05002ABFF8 /* UIScaleViewController.swift */; };
 		507358461C118D05002ABFF8 /* UIScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507358401C118D05002ABFF8 /* UIScaleViewController.xib */; };
+		507358481C118DE3002ABFF8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507358471C118DE3002ABFF8 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		5073583E1C118D05002ABFF8 /* UIScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScaleView.swift; sourceTree = "<group>"; };
 		5073583F1C118D05002ABFF8 /* UIScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScaleViewController.swift; sourceTree = "<group>"; };
 		507358401C118D05002ABFF8 /* UIScaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScaleViewController.xib; sourceTree = "<group>"; };
+		507358471C118DE3002ABFF8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				5073580E1C1160B4002ABFF8 /* Assets.xcassets */,
 				507358101C1160B4002ABFF8 /* LaunchScreen.storyboard */,
 				507358131C1160B4002ABFF8 /* Info.plist */,
+				507358471C118DE3002ABFF8 /* BaseViewController.swift */,
 				507358191C1160FD002ABFF8 /* MainTableViewController.swift */,
 				507358251C116560002ABFF8 /* Util.swift */,
 			);
@@ -202,6 +205,7 @@
 				507358081C1160B4002ABFF8 /* AppDelegate.swift in Sources */,
 				507358451C118D05002ABFF8 /* UIScaleViewController.swift in Sources */,
 				507358421C118D05002ABFF8 /* UIBasicAnimationViewController.swift in Sources */,
+				507358481C118DE3002ABFF8 /* BaseViewController.swift in Sources */,
 				507358261C116560002ABFF8 /* Util.swift in Sources */,
 				507358411C118D05002ABFF8 /* UIBasicAnimationView.swift in Sources */,
 				507358371C118CFF002ABFF8 /* Swift-addtion.m in Sources */,
@@ -323,7 +327,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chart.animate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "animate/animate-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "animate/OC/animate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -338,7 +342,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chart.animate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "animate/animate-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "animate/OC/animate-Bridging-Header.h";
 			};
 			name = Release;
 		};
