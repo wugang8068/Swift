@@ -10,8 +10,6 @@ import UIKit
 import Foundation
 
 protocol CCAnimationViewProtocol:NSObjectProtocol{
-    
-    
     func startAnimation();
     func stopAnimation();
 }
@@ -40,12 +38,6 @@ class CCAnimationView: UIView,CCAnimationViewProtocol {
     
     override init(frame: CGRect) {
         super.init(frame: frame);
-        self.initFrame();
-    }
-    
-    
-    private func initFrame(){
-        
     }
     
     func startAnimation() {
@@ -166,7 +158,6 @@ class CCAnimationView: UIView,CCAnimationViewProtocol {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder);
-        self.initFrame();
     }
     
 }

@@ -1,6 +1,7 @@
 
 animate/Build/*
-
+Build
+Build/*
 animate/animate.xcodeproj/project.xcworkspace/xcuserdata/wugang.xcuserdatad/UserInterfaceState.xcuserstate
 
 *.xcuserstate

@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startAnimation(sender: UIButton) {
-        self.animationView.value = 43210;
+        self.animationView.value = 43003484210;
         //self.animationView.value = NSNumber(int: rand() % 500);
-        self.animationView.duration = 2;
+        self.animationView.density = 30;
+        self.animationView.duration = 4;
         self.animationView.durationOffset = 0.3;
         self.animationView.startAnimation();
     }
