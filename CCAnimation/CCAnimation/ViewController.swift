@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         //self.animationView.value = NSNumber(int: rand() % 500);
         self.animationView.density = 30;
         self.animationView.duration = 4;
+        self.animationView.textColor = UIColor.redColor();
         self.animationView.durationOffset = 0.3;
         self.animationView.startAnimation();
     }
